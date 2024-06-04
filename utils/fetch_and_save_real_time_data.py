@@ -1,4 +1,4 @@
-# utils/fetch_and_save_realtime_data.py
+# fetch_and_save_realtime_data.py
 
 import os
 import json
