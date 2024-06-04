@@ -5,7 +5,7 @@ from stratergies.moving_average import MovingAverageStrategy
 class TestMovingAverageStrategy(unittest.TestCase):
 
     def setUp(self):
-        # Create a sample dataframe
+        
         self.data = pd.DataFrame({
             'close': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         })

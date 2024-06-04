@@ -15,7 +15,7 @@ def save_realtime_data(data, file_name):
     with open(file_path, 'w') as f:
         json.dump(data, f)
 
-# Example usage
+
 if __name__ == "__main__":
     api_endpoint = "https://api.example.com/realtime-data"
     api_key = "S4222ALIZVA8QY52"

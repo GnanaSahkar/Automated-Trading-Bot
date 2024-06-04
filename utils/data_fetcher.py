@@ -32,7 +32,7 @@ def fetch_realtime_data(api_key, symbol):
     else:
         raise ValueError("Error fetching real-time data: {}".format(data.get("Note", "Unknown error")))
 
-# Example usage
+
 if __name__ == "__main__":
     API_KEY = "S4222ALIZVA8QY52"
     SYMBOL = "AAPL"
