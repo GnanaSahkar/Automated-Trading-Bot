@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+#generating signals for Trading
 class MovingAverageStrategy:
     def __init__(self, short_window=40, long_window=100):
         self.short_window = short_window
