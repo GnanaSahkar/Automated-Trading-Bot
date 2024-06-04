@@ -17,6 +17,6 @@ class TestMovingAverageStrategy(unittest.TestCase):
         self.assertIn('signal', signals)
         self.assertIn('short_mavg', signals)
         self.assertIn('long_mavg', signals)
-
+# testing The Stratergies
 if __name__ == '__main__':
     unittest.main()
